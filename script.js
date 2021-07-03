@@ -6,7 +6,7 @@ const personalMovieDB = {
     actors: {},
     genres: [],
     privat: false
-}
+};
 
 const a = prompt('Last film', ''),
       b = prompt('Your choice', ''),
