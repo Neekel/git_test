@@ -8,12 +8,11 @@ const personalMovieDB = {
     privat: false
 };
 
-const a = prompt('Last film', ''),
-      b = prompt('Your choice', ''),
-      c = prompt('Last film', ''),
-      d = prompt('Your choice', '');
+for (let i = 0; i < 3; i++) {
+    const a = prompt('Last film', ''),
+      b = prompt('Your choice', '');
+    personalMovieDB.movies[a] = b;
+}
 
-personalMovieDB.movies[a] = b;
-personalMovieDB.movies[c] = d;
 
 console.log(personalMovieDB);
